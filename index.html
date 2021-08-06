@@ -1,0 +1,114 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Tullan Login Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/slimmenu.css" rel="stylesheet" media="screen">
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="content" id="home">
+		<div class="wrap">
+			<div class="header_style1">
+		<!-- start h_logo -->
+				<div class="logo">
+							<h1><a href="index.html">Tullan</a></h1>
+						</div>
+						
+
+						<h2><div class="the-api">
+							<div id="api"></div>
+								<h2></h2>
+						
+								<div class="clear"> </div>
+			</div>
+						<!---------menu-script------------->
+			<!-- start manu -->
+			<script type="text/javascript" src="js/flexy-menu.js"></script>
+			<link href="css/header_style1.css" rel="stylesheet" type="text/css" media="all" />
+			<script type="text/javascript">$(document).ready(function(){$(".flexy-menu").flexymenu({speed: 400,type: "horizontal",align: "right"});});</script>
+		<!---------end-script-menu------------->
+		   <div class="slider"> 
+				<!---start-da-slider----->
+				<div id="da-slider" class="da-slider">
+					<div class="da-slide">
+						<h2>The place to be</h2>
+						<p>Tullan is everything you ever wanted and needed. Go ahead and join us! ----- or just keep watching the panels as they go by.</p>
+					</div>
+					<div class="da-slide">
+						<h2>What's it about? Everything!</h2>
+						<p>Someone once told me the sky was the limit when you have the imagination of a child. That's what this page is aaaaaaall about. You can do whatever you want. Your life is a whiteboard.</p>
+					</div>
+					<div class="da-slide">
+						<h2>Wannabe Shakespeare?</h2>
+						<p>Go ahead! Just start writing. While you're at it, you can take a look at this very useful page: <a style="color: #ffffee; font-size: 35px" href="https://hemingwayapp.com/">The Hemingway Editor App</a>! </p>
+					</div>
+					<div class="da-slide">
+						<h2>Discover the world</h2>
+						<p>Okay, so, I managed to draw your attention down here - that means you're ready. Check out my <a style="color: #ffffee; font-size: 35px" href="https://www.instagram.com/tiagomefonseca">Instagram</a> if you want to know all about my latest adventures! </p>
+					</div>
+					<nav class="da-arrows">
+						<span class="da-arrows-prev"></span>
+						<span class="da-arrows-next"></span>
+					</nav>
+				</div>
+				 
+			<link rel="stylesheet" type="text/css" href="css/slider.css" />
+			<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+			<script type="text/javascript" src="js/jquery.cslider.js"></script>
+			<script type="text/javascript">
+				$(function() {
+				
+					$('#da-slider').cslider({
+						autoplay	: true,
+						bgincrement	: 450
+					});
+				
+				});
+			</script>
+				<!---//End-da-slider----->
+			</div>
+	</div>
+</div>
+	<!----start-team--------->
+	
+			  <!-- scroll_top_btn -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+	    <script type="text/javascript">
+			$(document).ready(function() {
+			
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+
+		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+			</div>
+	 </body>
+</html>
